@@ -14,5 +14,5 @@ with DAG(
 ) as dag:
     imprimir_hello = BashOperator(
         task_id="imprimir_hello",
-        bash_command="echo 'Hello, World!'",
+        bash_command="echo 'Hello, World! Galo doido'",
     )
